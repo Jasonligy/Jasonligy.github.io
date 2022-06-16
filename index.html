@@ -25,11 +25,11 @@
 
   
   
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="../../../../css/style.css">
 
   
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+<link rel="stylesheet" href="../../../../fancybox/jquery.fancybox.min.css">
 
   
 <meta name="generator" content="Hexo 6.2.0"></head>
@@ -42,7 +42,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Face Tracking</a>
+        <a href="index.html" id="logo">Face Tracking</a>
       </h1>
       
     </div>
@@ -50,7 +50,7 @@
       <nav id="main-nav">
         <a id="main-nav-toggle" class="nav-icon"></a>
         
-          <a class="main-nav-link" href="/">Home</a>
+          <a class="main-nav-link" href="index.html">Home</a>
         
           <a class="main-nav-link" href="/archives">Archives</a>
         
@@ -73,7 +73,7 @@
   
     <article id="post-meeting-1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/05/20/meeting-1/" class="article-date">
+    <a href="2022/05/20/meeting-1/" class="article-date">
   <time class="dt-published" datetime="2022-05-20T07:58:43.000Z" itemprop="datePublished">2022-05-20</time>
 </a>
     
@@ -85,7 +85,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/05/20/meeting-1/">meeting-1</a>
+      <a class="p-name article-title" href="2022/05/20/meeting-1/">meeting-1</a>
     </h1>
   
 
@@ -98,7 +98,7 @@
 <p>We only need to change the <code>data</code> in <code>sampler.py</code></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">data = TensorDict(&#123;<span class="string">&#x27;template_images&#x27;</span>: template_frames,</span><br><span class="line">                <span class="string">&#x27;template_anno&#x27;</span>: template_anno[<span class="string">&#x27;bbox&#x27;</span>],<span class="comment">#[upperleft_x,uplefty,weight,height]</span></span><br><span class="line">                <span class="string">&#x27;search_images&#x27;</span>: search_frames,</span><br><span class="line">                <span class="string">&#x27;search_anno&#x27;</span>: search_anno[<span class="string">&#x27;bbox&#x27;</span>]&#125;)</span><br></pre></td></tr></table></figure>
 
-<h2 id="network-structure"><a href="#network-structure" class="headerlink" title="network structure"></a>network structure</h2><p><img src="/network.png"></p>
+<h2 id="network-structure"><a href="#network-structure" class="headerlink" title="network structure"></a>network structure</h2><p><img src="network.png"></p>
 <p>THe training strategy is to split the image into two parts. One is the template <code>3*128*128</code>, the other is search region <code>3*256*256 </code>.</p>
 <p>We can randomly generate the template and search region pair from the identical person or from different  people to form the input. </p>
 <h2 id="Youtube-Face-Dataset"><a href="#Youtube-Face-Dataset" class="headerlink" title="Youtube Face Dataset"></a>Youtube Face Dataset</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Aaron_Eckhart\0\0.555.jpg,0,237,137,84,84,0.0,1</span><br></pre></td></tr></table></figure>
@@ -116,7 +116,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/05/20/meeting-1/" data-id="cl4h5vpst0000knw7aou44jue" data-title="meeting-1" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/05/20/meeting-1/" data-id="cl4h62cxg0000mgw7gu61d0p4" data-title="meeting-1" class="article-share-link">Share</a>
       
       
       
@@ -146,7 +146,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2022/05/">May 2022</a></li></ul>
     </div>
   </div>
 
@@ -159,7 +159,7 @@
       <ul>
         
           <li>
-            <a href="/2022/05/20/meeting-1/">meeting-1</a>
+            <a href="2022/05/20/meeting-1/">meeting-1</a>
           </li>
         
       </ul>
@@ -184,7 +184,7 @@
     </div>
     <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+    <a href="index.html" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
   
@@ -192,17 +192,17 @@
     
 
 
-<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="../../../../js/jquery-3.4.1.min.js"></script>
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+<script src="../../../../fancybox/jquery.fancybox.min.js"></script>
 
 
 
 
-<script src="/js/script.js"></script>
+<script src="../../../../js/script.js"></script>
 
 
 
